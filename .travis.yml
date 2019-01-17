@@ -1,0 +1,7 @@
+language: c
+dist: xenial
+compiler: gcc
+
+script:
+    - gcc main.c -o hello
+    - ./hello
